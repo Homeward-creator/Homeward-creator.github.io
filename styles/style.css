@@ -1,26 +1,37 @@
 body {
-    background-color: #70a0db;
+    background-color: #00539f;
 }
 #header {
     text-align: center;
     font-size: 4rem;
-    color: #70a0db;
+    color: #00539f;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px black;
 }
 #box {
-    position: absolute;
+    display: block;
     width: 30vw;
     height: auto;
-    background-color: orange;
-    border: black;
+    background-color: #ff9500;
+    border: black 5px;
     border-style: solid;
-    left: 37.5vw;
+    margin: 0 auto;
 }
 #img {
     position: relative;
     left: 7.5vw;
+    display: block ;
 }
-.p{
+.p {
+    font-size: 16px;
     margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+.li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.ul {
+    padding-left: 70px;
 }
