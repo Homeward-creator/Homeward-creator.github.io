@@ -1,0 +1,26 @@
+body {
+    background-color: #70a0db;
+}
+#header {
+    text-align: center;
+    font-size: 4rem;
+    color: #70a0db;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px black;
+}
+#box {
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    background-color: orange;
+    border: black;
+    border-style: solid;
+    left: 37.5vw;
+}
+#img {
+    position: relative;
+    left: 7.5vw;
+}
+.p{
+    margin-left: 10px;
+}
