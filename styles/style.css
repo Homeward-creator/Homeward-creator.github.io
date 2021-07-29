@@ -3,10 +3,10 @@ body {
 }
 #header {
     text-align: center;
-    /* font-size: 4rem;
+    font-size: 4rem;
     color: #00539f;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px black; */
+    text-shadow: 2px 2px black;
 }
 #box {
     display: block;
