@@ -269,3 +269,20 @@ p {
     border-radius: 10px;
     border: 3px solid #eeeeee;
 }
+
+.glow {
+    font-size: 1.5vw;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffff, 0 0 40px #ffff, 0 0 50px #ffff, 0 0 60px #ffff, 0 0 70px #ffff;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ffff, 0 0 40px #ffff, 0 0 50px #ffff, 0 0 60px #ffffffff, 0 0 7#ffff, 0 0 80px #ffff;
+    }
+}
