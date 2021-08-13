@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Prodklaw Khemprasit</title>
+</head>
+
+<body onscroll="disableScrolling()" onmousewheel="enableScrolling()" >
+    <div id="scrollbar">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">	
+            &#9650;</button>
+        <div class="fullpage">
+            <header class="repeatx head">
+                <a href="https://www.facebook.com/AustinC.113p/"><img id="profileImg" src="images/profile copy.jpg" alt="profile"></a>
+                <div class="wrapper">
+                    <div class="typing" id="name">
+                        ...PRODKLAW KHEMPRASIT
+                    </div>
+                </div>
+                <div>
+                    <h1><span>I</span>M<span>POSSIBLE</span></h1>
+                </div>
+                <table>
+                    <tr>
+                        <td><a href="#personalprofile" class="contact">Profile</a></td>
+                        <td><a href="#search" class="contact">contact here</a></td>
+                    </tr>
+                </table>
+            </header>
+            <div class="repeatx content" id="searchtext">
+                <div class="header" id="personalprofile">PERSONAL PROFILE</div>
+                <ul class="fonts" id="personallist">
+                    <li class="lialign"> I am a computer engineering student.</li>
+                    <li class="lialign"> I'm interested in a front-end development internship.</li>
+                    <li class="lialign"> My English skills are equivalent to a High-intermediate level.</li>
+                    <li class="lialign"> I'm a fast learner and a hardworking person.</li>
+                </ul>
+                <div id="exp">EXPERIENCE</div>
+                <div class="header" id="pythonproj">Python Project</div>
+                <header id="firstyear">First-year Student</header>
+                <ul class="fonts">
+                    <li class="lialign">Creating a program to simulate convenience store cashier</li>
+                    <li class="lialign">Create a functional application using python language</li>
+                </ul>
+                <div class="header" id="pythonproj">Java Project</div>
+                <header id="firstyear">Second-year Student</header>
+                <ul class="fonts">
+                    <li class="lialign">Creating an RPG-based game using C#</li>
+                    <li class="lialign">Design terrain and creating a map</li>
+                    <li class="lialign">Develop every system in the game</li>
+                    <li class="lialign">Writing a program using Java</li>
+                </ul>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <footer class="repeatx foot">
+                <form action="" method="" id="search" name="search" onsubmit="submitted()">
+                    <p>Insert your question here:
+                    <input name="query" id="query" type="text" size="30" maxlength="30" placeholder="Insert your question...">
+                    Insert your email here:
+                    <input name="query" id="query" type="text" size="30" maxlength="30" placeholder="Insert your email...">
+                    </p>
+                    <input type="submit" id="btnsearch">Submit</input></button> 
+                </form>
+                <a href="https://github.com/Homeward-creator"><i class="fab fa-github"  style="color: #fff; font-size: 4vw;"></i></a>
+                <a href="mailto: homeward@kkumail.com"><i class="far fa-envelope" style="color: #fff; font-size: 4vw;"></i></a>
+                <i class="fas fa-phone-alt" style="color: #fff; font-size: 3.5vw;"></i>
+                <p>(+66)886842870</p>
+            </footer>
+        </div>
+    </div>
+</body>
+<script>
+    function submitted() {
+        alert("Will cantact you back asap!");
+    }
+
+    var mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function disableScrolling() {
+        setTimeout(function() {
+            document.body.style.overflow = 'hidden';
+        }, 1000);
+    }
+          
+    function enableScrolling() {
+        document.body.style.overflow = '';
+    }
+</script>
+<script src="https://kit.fontawesome.com/c0cdab0c7e.js" crossorigin="anonymous"></script>
+
+</html>

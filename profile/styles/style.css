@@ -1,0 +1,271 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    min-height: 100vh;
+    
+}
+
+h1{
+    color: #484848;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+}
+
+h1 span{
+    transition: .5s linear
+}
+
+h1:hover span:nth-child(1){
+    margin-right: 5px
+}
+
+h1:hover span:nth-child(1):after{
+    content: "'";
+}
+
+h1:hover span:nth-child(2){
+    margin-left: 30px
+}
+
+h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vw;
+    margin-top: 50px;
+}
+  
+.typing {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+  
+@keyframes typing {
+    from {
+      width: 0
+    }
+}
+      
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+mark {
+    background: orange;
+    color: black;
+}
+
+.fullpage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.repeatx {
+    flex:1;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.head {
+    height: 33.4rem;
+    background-color: #1d1c1c;
+    text-align: center;
+}
+
+.content {
+    height: 33.4%;
+    background-color: #eeeeee;
+}
+
+.foot {
+    height: 33.4%;
+    background-color: #1d1c1c;
+}
+
+#profileImg {
+    margin-top: 10.2%;
+    width: 20%;
+    border-radius: 50%;
+}
+
+#name {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 5vw;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#btnsearch {
+    top: 1%;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 10px;
+    width: 4vw;
+    height: 2.27vw;
+    margin-bottom: 2%;
+    background-color: rgb(135, 205, 218);
+}
+
+#btnsearch:hover {
+    background-color: rgb(63, 219, 247);
+}
+
+#query {
+    padding-left: 2%;
+    top: 1%;
+    font-size: 0.7vw;
+    font-weight: bold;
+    font-family: monospace;
+    width: 20vw;
+    height: 2vw;
+    border-radius: 10px;
+}
+
+#personallist{
+    list-style-type: disc;
+}
+
+.lialign {
+    font-size: 2em;
+    margin: 2%;
+    margin-left: 6%;
+    padding-left: 1%;
+}
+
+#exp {
+    color: rgb(128, 179, 179);
+    margin-left: 5%;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 1%;
+}
+
+.fonts {
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.contact {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 2.2em;
+    color: lightslategray;
+    margin-left: 10%;
+}
+
+.contact:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+}
+
+#firstyear {
+    color: lightslategray;
+    font-size: 2.2em;
+    margin-left: 5%;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.header {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 2.3em;
+}
+
+#personalprofile {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#pythonproj {
+    margin-left: 5%;
+}
+
+table{
+    width: 20%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    border: 4px solid white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+td {
+    border: 4px solid white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 2.0em;
+    color: #fff;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 2em;
+    border: none;
+    outline: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+#myBtn:hover {
+    background-color: #555;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #636363 #eeeeee;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #eeeeee;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #636363;
+    border-radius: 10px;
+    border: 3px solid #eeeeee;
+}
