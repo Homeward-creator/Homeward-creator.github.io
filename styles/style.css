@@ -44,3 +44,212 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
 }
+
+#img {
+    width: 50%; 
+    height: 50%;
+}
+
+#img2 {
+    width: 50%; 
+    height: 50%; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/* iphone 5 portrait */
+@media only screen and (min-width: 320px){
+    #heading {
+        font-size: 2rem;
+    }
+    #box {
+        width: 70vw;
+        height: 95vh;
+    }
+    #p {
+        font-size: 13px;
+    }
+    .popular {
+        font-size: 13px;
+    }
+    .li {
+        font-size: 13px;
+    }
+    .footer {
+        font-size: 13px;
+    }
+    #img {
+        width: 70%;
+    }
+    #img2 {
+        width: 70%;
+    }
+    #captionimg {
+        font-size: 13px;
+    }
+    .ul {
+        padding-left: 50px;
+    }
+}
+/* iphone 5 landscape */
+@media only screen and (min-width: 568px){
+    #heading {
+        font-size: 2rem;
+    }
+    #box {
+        width: 70vw;
+        height: auto;
+    }
+    #p {
+        font-size: 13px;
+    }
+    .popular {
+        font-size: 13px;
+    }
+    .li {
+        font-size: 13px;
+    }
+    .footer {
+        font-size: 13px;
+    }
+    #img {
+        width: 70%;
+    }
+    #img2 {
+        width: 70%;
+    }
+    #captionimg {
+        font-size: 13px;
+    }
+    .ul {
+        padding-left: 50px;
+    }
+}
+/* ipad 5 portrait */
+@media only screen and (min-width: 768px){
+    #heading {
+        font-size: 4rem;
+    }
+    #box {
+        width: 74vw;
+        height: 97vh;
+    }
+    #p {
+        font-size: 22px;
+    }
+    .popular {
+        font-size: 20px;
+    }
+    .li {
+        font-size: 20px;
+    }
+    .footer {
+        font-size: 22px;
+    }
+    #img {
+        width: 58%;
+    }
+    #img2 {
+        width: 58%;
+    }
+    #captionimg {
+        font-size: 18px;
+    }
+    .ul {
+        padding-left: 70px;
+    }
+}
+/* ipad landscape */
+@media only screen and (min-width: 1024px){
+    #heading {
+        font-size: 4rem;
+    }
+    #box {
+        width: 74vw;
+        height: auto;
+    }
+    #p {
+        font-size: 22px;
+    }
+    .popular {
+        font-size: 20px;
+    }
+    .li {
+        font-size: 20px;
+    }
+    .footer {
+        font-size: 22px;
+    }
+    #img {
+        width: 58%;
+    }
+    #img2 {
+        width: 58%;
+    }
+    #captionimg {
+        font-size: 18px;
+    }
+    .ul {
+        padding-left: 70px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: #00539f;
+    }
+    #heading {
+        text-align: center;
+        font-size: 4rem;
+        color: #00539f;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 2px 2px black;
+    }
+    #box {
+        display: block;
+        width: 30vw;
+        height: auto;
+        background-color: #ff9500;
+        border: black 5px;
+        border-style: solid;
+        margin: 0 auto;
+    }
+    #p {
+        font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 10px;
+        color: blue;
+    }
+    .popular {
+        border-style: dotted;
+        border-width: 4px;
+        border-color: red;
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-right: 30px;
+    }
+    .li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .ul {
+        padding-left: 70px;
+    }
+    
+    .footer {
+        font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 10px;
+    }
+    
+    #img {
+        width: 50%; 
+        height: 50%;
+    }
+    
+    #img2 {
+        width: 50%; 
+        height: 50%; 
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}
